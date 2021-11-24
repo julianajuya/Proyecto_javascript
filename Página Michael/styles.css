@@ -1,0 +1,89 @@
+#header h3,img{
+    font-size: 110px;
+    margin: inherit; 
+    font-family: Embassy BT;  
+    display: inline-block;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Homer Simpson UI; 
+    margin: 50px 50px 10px; 
+}
+
+li{
+    list-style: none; 
+    margin: 5px 40px; 
+    font-size: 17px; 
+    font-family: Homer Simpson UI;
+}
+
+#column{
+    column-count: 3; 
+    column-gap: 20px;
+    column-rule: 4px none black;
+}
+
+#column img{
+    margin: 10px 0 10px 0;  
+    width: 750px; 
+    height: 400px; 
+}
+
+p{
+    margin: 10px 90px; 
+    font-family: Homer Simpson UI; 
+    font-size: 17px;
+    text-align: justify; 
+}
+
+b{
+    font-family: Homer Simpson UI; 
+    font-size: 22px;
+    text-align: justify; 
+    margin: 20px 90px 10px; 
+}
+
+table{
+    border: 1px solid black;
+    width: 50%; 
+    border-collapse: collapse; 
+    margin: 10px 90px; 
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+form{
+    margin: 10px 90px; 
+}
+
+caption, input{
+    margin: 10px; 
+    font-family: Homer Simpson UI; 
+    font-size: 18px; 
+    width: 320px;
+}
+
+input[name="Biograph"]{
+    width: 320px; 
+    height: 140px; 
+}
+
+input[name="Height"]{
+    width: 90px; 
+}
+
+input[name="submit"]{
+    width: 70px; 
+}
+
+input[name="reset"]{
+    width: 110px; 
+}
+    
+a{
+    text-decoration:none;
+    color: #000;
+}
