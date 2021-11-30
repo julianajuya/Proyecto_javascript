@@ -1,54 +1,60 @@
-#header h3,img{
+#header h3, img{
     font-size: 110px;
-    margin: inherit; 
-    font-family: Embassy BT;  
+    margin: inherit;
+    font-family: Embassy BT;
     display: inline-block;
+    font-weight: bold;
+}
+
+#initImage{
+    display:block;
+    margin: 0 170px;
 }
 
 h2{
     font-size: 30px;
-    font-family: Homer Simpson UI; 
-    margin: 50px 50px 10px; 
+    font-family: Homer Simpson UI;
+    margin: 50px 50px 10px;
+    font-weight: bold;
 }
 
-li{
-    list-style: none; 
-    margin: 5px 40px; 
-    font-size: 17px; 
+h4{
     font-family: Homer Simpson UI;
 }
 
-#column{
-    column-count: 3; 
-    column-gap: 20px;
-    column-rule: 4px none black;
+li{
+    list-style: none;
+    margin: 5px 40px;
+    font-size: 17px;
+    font-family: Homer Simpson UI;
 }
 
 #column img{
-    margin: 10px 0 10px 0;  
-    width: 750px; 
-    height: 400px; 
+    margin: 10px 0 10px 0;
+    width: 750px;
+    height: 400px;
 }
 
 p{
-    margin: 10px 90px; 
-    font-family: Homer Simpson UI; 
+    margin: 10px 90px;
+    font-family: Homer Simpson UI;
     font-size: 17px;
-    text-align: justify; 
+    text-align: justify;
 }
 
 b{
-    font-family: Homer Simpson UI; 
+    font-family: Homer Simpson UI;
     font-size: 22px;
-    text-align: justify; 
-    margin: 20px 90px 10px; 
+    text-align: justify;
+    margin: 20px 90px 10px;
 }
 
 table{
     border: 1px solid black;
-    width: 50%; 
-    border-collapse: collapse; 
-    margin: 10px 90px; 
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10px 90px;
+    font-family: Homer Simpson UI;
 }
 
 th, td{
@@ -56,34 +62,179 @@ th, td{
 }
 
 form{
-    margin: 10px 90px; 
+    margin: 10px 90px;
+    font-family: Homer Simpson UI;
+    font-size: 20px;
 }
 
 caption, input{
-    margin: 10px; 
-    font-family: Homer Simpson UI; 
-    font-size: 18px; 
+    margin: 10px;
+    font-family: Homer Simpson UI;
+    font-size: 18px;
     width: 320px;
 }
 
-input[name="Biograph"]{
-    width: 320px; 
-    height: 140px; 
+input[name="biograph"]{
+    width: 320px;
+    height: 140px;
 }
 
-input[name="Height"]{
-    width: 90px; 
+input[name="height"]{
+    width: 90px;
 }
 
 input[name="submit"]{
-    width: 70px; 
+    width: 70px;
 }
 
 input[name="reset"]{
-    width: 110px; 
+    width: 110px;
 }
-    
+
 a{
     text-decoration:none;
     color: #000;
+}
+
+#Discography{
+    column-count: 3;
+    column-rule: 5px;
+}
+
+#elements{
+    column-count: 3;
+    column-gap: 80px;
+    column-rule: 5px;
+}
+
+#Discography p{
+    font-family: Homer Simpson UI;
+    font-size: 17px;
+    text-align: justify;
+    width: 350px;
+    margin: 10px 5px;
+}
+
+#content-form h5{
+    font-family: Homer Simpson UI;
+    margin: 10px 6px 0 80px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+}
+
+#content-form p{
+    font-size: 17px;
+    display: inline;
+    margin: 0;
+}
+
+textarea {
+    font-size: 18px;
+    font-family: Homer Simpson UI;
+    margin: 10px;
+}
+
+.got_to_be_there{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.ben{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.music_and_me{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.forever_michael{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.thriller{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.bad{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.of_the_wall{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.dangerous{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.history_album{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.invincible{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.inmortal{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.blood{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
+}
+
+.then_now_forever{
+    color: black;
+}
+.changer {
+    color: white;
+    background-color: black;
 }
